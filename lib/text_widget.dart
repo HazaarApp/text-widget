@@ -42,6 +42,7 @@ class TextWidget extends StatelessWidget {
         fontSize: textStyle.fontSize,
         letterSpacing: textLetterSpacing,
         height: textHeight,
+        fontWeight: textStyle.fontWeight,
       );
 
       return Text.rich(
