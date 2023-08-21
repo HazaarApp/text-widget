@@ -43,7 +43,7 @@ class TextWidget extends StatelessWidget {
         letterSpacing: textLetterSpacing,
         height: textHeight,
         fontWeight: textStyle.fontWeight,
-        color: textStyle.color,
+        color: Colors.red,
       );
 
       return Text.rich(
